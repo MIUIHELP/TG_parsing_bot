@@ -9,8 +9,8 @@ def get_all_work():
         "user-agent": "MMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36 OPR/87.0.4390.58"
     }
 
-    login_url = 'http://helpdesk.src.kiev.ua/login.php'
-    secure_url = 'http://helpdesk.src.kiev.ua/view_all_bug_page.php'
+    login_url = 'your_url_login'
+    secure_url = 'url_for_all_work_page'
 
     payload = {
         'username': config.username,
