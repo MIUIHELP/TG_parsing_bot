@@ -56,9 +56,6 @@ def check_new_work():
             "user-agent": "MMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36 OPR/87.0.4390.58"
         }
 
-        login_url = 'http://helpdesk.src.kiev.ua/login.php'
-        secure_url = 'http://helpdesk.src.kiev.ua/view_all_bug_page.php'
-
         payload = {
             'username': config.username,
             'password': config.password
@@ -118,10 +115,6 @@ def check_work_status():
         headers = {
             "user-agent": "MMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36 OPR/87.0.4390.58"
         }
-
-        login_url = 'http://helpdesk.src.kiev.ua/login.php'
-        secure_url = 'http://helpdesk.src.kiev.ua/view_all_bug_page.php?filter=62e90364b0c87'
-
         payload = {
             'username': config.username,
             'password': config.password
